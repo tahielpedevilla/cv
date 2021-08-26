@@ -1,13 +1,15 @@
 import React from "react";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import Home from "./components/pages/Home";
+import LandingLayout from "./components/layout/LandingLayout";
 
 function App() {
   return (
-    <Router>
-      <Route exact component={Home} path="/" />
-    </Router>
+    <BrowserRouter>
+      <Switch>
+        <Route component={LandingLayout} path="/" />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
