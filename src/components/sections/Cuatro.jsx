@@ -19,6 +19,7 @@ const Cuatro = () => {
           </Heading>
         </Flex>
         <Button
+          colorScheme="white"
           rounded="full"
           size="lg"
           top={{base: "100px", md: "150px", lg: "200px"}}

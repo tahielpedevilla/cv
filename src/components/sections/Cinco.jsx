@@ -22,6 +22,7 @@ const Cinco = () => {
           <ButtonGroup />
           <Button
             bottom={{base: "100px", md: "70px", lg: "50px"}}
+            colorScheme="white"
             position="absolute"
             rounded="full"
             size="lg"

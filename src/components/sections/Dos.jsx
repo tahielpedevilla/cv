@@ -20,6 +20,7 @@ const Dos = () => {
           </Heading>
         </Flex>
         <Button
+          colorScheme="white"
           rounded="full"
           size="lg"
           top={{base: "120px", md: "170px", lg: "220px"}}
