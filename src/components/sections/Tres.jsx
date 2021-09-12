@@ -22,13 +22,14 @@ const Tres = () => {
           colorScheme="white"
           rounded="full"
           size="lg"
-          top={{base: "100px", md: "150px", lg: "200px"}}
+          top={{base: "100px", md: "100px", lg: "180px"}}
+          transition="all .5s ease"
           variant="link"
           onClick={() => {
             scroller.scrollTo("cuatro", scrollType);
           }}
         >
-          <ChevronDownIcon fontSize="60" />
+          <ChevronDownIcon color="#fff" fontSize="60" />
         </Button>
       </VStack>
     </>

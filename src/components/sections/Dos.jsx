@@ -23,13 +23,14 @@ const Dos = () => {
           colorScheme="white"
           rounded="full"
           size="lg"
-          top={{base: "120px", md: "170px", lg: "220px"}}
+          top={{base: "100px", md: "100px", lg: "180px"}}
+          transition="all .5s ease"
           variant="link"
           onClick={() => {
             scroller.scrollTo("tres", scrollType);
           }}
         >
-          <ChevronDownIcon fontSize="60" />
+          <ChevronDownIcon color="#fff" fontSize="60" />
         </Button>
       </VStack>
     </>

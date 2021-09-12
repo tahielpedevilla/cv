@@ -26,12 +26,13 @@ const Cinco = () => {
             position="absolute"
             rounded="full"
             size="lg"
+            transition="all .5s ease"
             variant="link"
             onClick={() => {
               scroller.scrollToTop(scrollType);
             }}
           >
-            <ChevronUpIcon fontSize="60" />
+            <ChevronUpIcon color="#fff" fontSize="60" />
           </Button>
         </VStack>
       </Flex>
