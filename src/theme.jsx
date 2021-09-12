@@ -8,6 +8,19 @@ const theme = extendTheme({
       },
     },
   },
+  components: {
+    Button: {
+      variants: {
+        link: {
+          bg: "transparent",
+          boxShadow: "0",
+          _focus: {
+            boxShadow: "0",
+          },
+        },
+      },
+    },
+  },
 });
 
 export default theme;
