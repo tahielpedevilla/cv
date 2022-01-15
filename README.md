@@ -1,3 +1,3 @@
 ## My Cv Online
 
-Este es mi Cv online, creado con React
+CV creado con Chakra UI y React
