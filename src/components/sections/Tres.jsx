@@ -1,7 +1,7 @@
 import React from "react";
-import {Button, Flex, Heading, VStack} from "@chakra-ui/react";
-import {scroller} from "react-scroll";
+import {Button, Text, Link, Stack, VStack} from "@chakra-ui/react";
 import {ChevronDownIcon} from "@chakra-ui/icons";
+import {scroller} from "react-scroll";
 
 const scrollType = {
   duration: 500,
@@ -12,18 +12,31 @@ const scrollType = {
 const Tres = () => {
   return (
     <>
-      <VStack align="center" bg="#319795" h="100vh" justify="center">
-        <Flex>
-          <Heading as="h4" color="white" marginX={{base: "50px", md: "150px", lg: "200px"}} textAlign="center">
-            Desarrollador web Front-End con conocimientos en: Html, CSS, JavaScript, React, Angular y Git.
-          </Heading>
-        </Flex>
+      <Stack bg="#717171" h="100vh">
+        <VStack align="center" h="100%" justify="center" pt="60px">
+          <Text
+            color="white"
+            fontSize={{base: "md", lg: "xl"}}
+            marginX={{base: "50px", md: "150px", lg: "200px"}}
+            textAlign="center"
+          >
+            Actualmente trabajando en{" "}
+            <Link isExternal href="https://houston.com.ar/">
+              Houston
+            </Link>{" "}
+            BASE CREATIVA como Web Developer.
+            <br />
+            Tengo experiencia con: Html, CSS, JavaScript, React, PHP, MySql, Git y GitHub.
+          </Text>
+        </VStack>
         <Button
+          bottom={{base: "20px", md: "20px", lg: "20px"}}
           colorScheme="white"
+          fontWeight="500"
+          position="relative"
           rounded="full"
           size="lg"
-          top={{base: "100px", md: "100px", lg: "180px"}}
-          transition="all .5s ease"
+          transition="all .15s ease"
           variant="link"
           onClick={() => {
             scroller.scrollTo("cuatro", scrollType);
@@ -31,7 +44,7 @@ const Tres = () => {
         >
           <ChevronDownIcon color="#fff" fontSize="60" />
         </Button>
-      </VStack>
+      </Stack>
     </>
   );
 };
