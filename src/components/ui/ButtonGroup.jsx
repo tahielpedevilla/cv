@@ -31,7 +31,7 @@ const ButtonGroup = () => {
         </Link>
         <Link
           isExternal
-          href="https://drive.google.com/file/d/15cLpnfCoODMFeM44tSl3Yl8EZQM56Mzh/view?usp=sharing"
+          href="https://drive.google.com/file/d/19hgAokm3VYn9EC8jOVCKZTxS2JP668XU/view?usp=sharing"
           target="_blank"
         >
           <Tooltip fontSize="sm" label="Descargar CV">
